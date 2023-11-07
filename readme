@@ -1,0 +1,19 @@
+# Marvel Theme Extension
+
+The Marvel Theme Extension is a browser extension designed to enhance the user's browsing experience by providing the ability to change the background color of web pages. I intended to make this site to make the Marvel.com site less modern and have more aspects of a comic book. This is primarily through the change of the main logo at the top to be their old logo, along with all the fonts of the page changing. I also changed the buttons appearence to be more "comic-like" Adjusting these buttons was one of the hardest processes of the whole project and there are still some inconsistentsies. This extension is built with the understanding that the visual aspect of a web page greatly impacts the user's experience and interaction with the content.
+
+The extension provides a popup with several buttons, each corresponding to a different color theme. The available color themes are Beige, Dark Red, Yellow, Blue, and Red. These colors were chosen as they most similarly match common color hues within that of a comic book. I think the yellow looks particularly well on this website as it works really well with the red that the Marvel site already uses.
+
+When a user clicks on a button in the popup, the background color of the web page in the active tab changes to the color associated with that button. The color change applies to several elements on the page, including the body and various container elements, ensuring a consistent and immersive color experience. I did encounter some issues with the top container as 2 parts still appear white despite me trying multiple different methods. Nothing would seem to work.
+
+The Marvel Theme Extension improves the user's browsing experience by allowing for customization of web pages. This is particularly beneficial for users who spend long hours browsing the web. Additionally, it can be helpful for users with visual impairments who may find certain color themes easier to view, along with it making the site appear closer to a comic book.Moreover, the ability to customize the look and feel of a web page can make the browsing experience more enjoyable and personalized. Users can choose a color theme that matches their mood, enhances the content of the web page, or simply provides a change of scenery.
+
+To use the extension, install it in your browser, click on the extension icon to open the popup, and then click on a button in the popup to change the background color of the active web page. Clicking on the same button again will revert the background color to its original state.
+
+In conclusion, the Marvel Color Theme Extension is a tool that enhances the browsing experience by providing customization options, improving accessibility, and adding a touch of personalization to the web pages you visit. Enjoy customizing your web pages with the Marvel Theme Extension.
+
+Font Links:
+https://www.dafont.com/theme.php?cat=102
+https://www.1001fonts.com/back-issues-bb-font.html
+
+Also, I think this addition works quite well for the Marvel.com website, I just wish I could find a way to fix a few errors in the coloring, and the buttons.

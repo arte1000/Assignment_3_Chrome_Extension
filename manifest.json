@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "Comic Accurate",
+    "description": "Change the Marvel website to be more comic accurate.",
+    "permissions": ["activeTab", "storage", "tabs"],
+    "version": "1.0",
+    "icons": {
+        "16": "images/marvel-icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.marvel.com/"
+            ],
+            "css": [
+                "styles.css"
+            ],
+            "js": [
+                "scripts.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html"    
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["styles.css"],
+            "matches": ["https://www.marvel.com/*"]
+        },
+        {
+            "resources": ["images/*"],
+            "matches": ["https://www.marvel.com/*"]
+        },
+        {
+            "resources": ["fonts/*"],
+            "matches": ["https://www.marvel.com/*"]
+        }
+    ]
+}

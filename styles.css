@@ -1,0 +1,319 @@
+@font-face {
+    font-family: 'KOMIKAX_';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/KOMIKAX_.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SuperSquad';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/SuperSquad.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Hey_Comic';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/Hey_Comic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'backissues';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/backissues.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'backissuesBB';
+    src: url('chrome-extension://__MSG_@@extension_id__/fonts/backissuesBB.ttf') format('truetype');
+}
+
+/* All font work below */
+
+.masthead__headline{
+    font-family: 'KOMIKAX_' !important;
+}
+
+.masthead__copy {
+    font-family: 'backissues' !important;
+    font-size: 12px !important;
+    padding-top: 5px !important;
+}
+
+.tabs__btns  {
+    font-family: 'Hey_Comic' !important;
+}
+
+.desktopNav__link{
+    font-family: 'backissuesBB' !important;
+}
+
+.card-body__headline {
+    font-family: 'backissues' !important;
+    font-size: 12px !important; 
+}
+
+.card-body__unlinked {
+    font-family: 'KOMIKAX_' !important;
+    text-align: center !important;
+}
+
+.sets__title {
+    font-family: 'KOMIKAX_' !important;
+    font-size: 30px !important;
+}
+
+.sets__description {
+    font-family: 'backissues' !important;
+    font-size: 12px !important;
+}
+
+.sets__eyebrow {
+    font-family: 'Hey_Comic' !important;
+}
+
+.card-footer__secondary-text {
+    font-family: 'backissues' !important;
+}
+
+.card-footer__overlay-time {
+    font-family: 'backissues' !important;
+}
+
+.inlineModuleHeader__header {
+    font-family: 'Hey_Comic' !important;
+}
+
+.rail-featured__title {
+    font-family: 'Hey_Comic' !important;
+}
+
+.rail-featured__sub-title {
+    font-family: 'backissues' !important;
+}
+
+.card-body__insider {
+    font-family: 'backissues' !important;
+    font-size: 10px !important;
+}
+
+.video-metadata__eyebrow {
+    font-family: 'Hey_Comic' !important;
+}
+
+.video-metadata__title {
+    font-family: 'KOMIKAX_' !important;
+}
+
+.video-metadata__insider {
+    font-family: 'backissues' !important;
+    font-size: 10px !important;
+    padding-top: 5px !important;
+}
+
+.video-metadata__description {
+    font-family: 'backissues' !important;
+    font-size: 12px !important;
+}
+
+.promo__eyebrow {
+    font-family: 'Hey_Comic' !important;
+}
+
+.promo__title {
+    font-family: 'KOMIKAX_' !important;
+}
+
+.promo__description {
+    font-family: 'backissues' !important;
+    font-size: 12px !important;
+}
+
+.main-footer__link, .main-footer__promotion-title {
+    font-family: 'Hey_Comic' !important;
+}
+
+.main-footer__promotion-description {
+    font-family: 'backissues' !important;
+    font-size: 10px !important;
+    padding-top: 5px !important;
+}
+
+.main-footer__legal-text, .main-footer__legal-link {
+    font-family: 'backissues' !important;
+    font-size: 10px !important;
+}
+
+.searchPromo__wrap {
+    font-family: 'backissues' !important;
+}
+
+.mvl-flyout__secondary-link {
+    font-family: 'Hey_Comic' !important;
+}
+
+.mvl-flyout__browse-prompt, .mvl-flyout__browse-link {
+    font-family: 'KOMIKAX_' !important;
+}
+
+.large, .mvl-flyout__cta-title {
+    font-family: 'KOMIKAX_' !important;
+}
+
+.user-menu__links {
+    font-family: 'backissues' !important;
+}
+
+.masthead__eyebrow {
+    font-family: 'Hey_Comic' !important;
+}
+
+.mvl-flyout__callout-title, .mvl-flyout__callout-description {
+    font-family: 'backissues' !important;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.innerFill {
+    color: #ffffff !important;
+    font-family: 'Hey_Comic' !important;
+}
+
+/* All below is button work */
+
+.cta-btn:after, .cta-btn:before {
+    border-style: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:after, .cta-btn.cta-btn--solid.cta-btn--red:before {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.cta-btn .innerFill:after, .cta-btn .innerFill:before {
+    border-style: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red .innerFill:before {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.cta-btn .innerFill:after,.cta-btn .innerFill:before {
+    border-width: 0 !important;
+}
+
+.cta-btn:before {
+    border-width: 0 !important;
+}
+
+.cta-btn:after {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--red:after,.cta-btn.cta-btn--outline.cta-btn--red:before {
+    border-color: none !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--red:before {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--red:after {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--red .innerFill:before {
+    color: none !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--light:before {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--light:after {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--dark:before {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--outline.cta-btn--dark:after {
+    border-width: 0 !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:after,.cta-btn.cta-btn--solid.cta-btn--red:before {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red .innerFill {
+    background-color: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red .innerFill:after,.cta-btn.cta-btn--solid.cta-btn--red .innerFill:before {
+    border-color: none transparent !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:hover:after,.cta-btn.cta-btn--solid.cta-btn--red:hover:before {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:hover .innerFill {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:hover .innerFill:after,.cta-btn.cta-btn--solid.cta-btn--red:hover .innerFill:before {
+    border-color: none transparent !important;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:after {
+    background-color: none !important;
+    border-color: none !important;
+}
+
+/* Popup */
+#beigeButton, #darkRedButton, #yellowButton, #blueButton, #redButton {
+    padding: 10px 20px;
+    font-family: 'backissues';
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5dc;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+    margin: 10px;
+}
+
+#beigeButton:hover {
+    background-color: #dfdcb9;
+}
+
+#darkRedButton:hover {
+    background-color: #820000;
+}
+
+#yellowButton:hover {
+    background-color: #f6db35;
+}
+
+#blueButton:hover {
+    background-color: #4c94f6;
+}
+
+#redButton:hover {
+    background-color: #ee5454;
+}
+
+#popup img {
+    width: 100px;
+    height: auto;
+}
+
+#popup {
+    text-align: center; /* Center the buttons horizontally */
+    padding: 20px; /* Add some padding around the buttons */
+}
+
